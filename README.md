@@ -54,4 +54,41 @@ Found matches:
 Total unique matches: 86
 ```
 
+## Using with IIS ShortScan
+
+This tool is particularly useful when combined with ShortScan IIS, a tool used to enumerate short filenames on IIS servers.
+
+### Scenario
+
+Run ShortScan IIS against a target:
+
+```bash
+shortscan https://target.com/
+```
+Example Output:
+```
+_LOGMO~1             _LOGMO?    
+DOCKER~3             DOCKER?    
+DOCKER~2             DOCKER?    
+DOCKER~1             DOCKER?    
+WEB~1.CON            WEB.CON?   
+```
+Use GitHub Shortname Scanner to find matching filenames:
+
+```
+python gsnw.py WEB -o wordlist.txt
+```
+
+Cross-check results
+
+Compare the results from wordlist.txt with ShortScan IIS output to determine the full filenames and improve enumeration.
+
+
+
+
+
+
+
+
+
 
