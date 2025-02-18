@@ -60,7 +60,7 @@ This tool is particularly useful when combined with ShortScan IIS, a tool used t
 
 ### Scenario
 
-Run ShortScan IIS against a target:
+#### 1. Run ShortScan IIS against a target  
 
 ```bash
 shortscan https://target.com/
@@ -73,15 +73,15 @@ DOCKER~2             DOCKER?
 DOCKER~1             DOCKER?    
 WEB~1.CON            WEB.CON?   
 ```
-Use GitHub Shortname Scanner to find matching filenames:
+#### 2.Use GitHub Shortname Scanner to find matching filenames:
 
 ```
 python gsnw.py WEB -o wordlist.txt
 ```
 
-Cross-check results
+#### 3.Cross-check results
 
-Compare the results from wordlist.txt with ShortScan IIS output to determine the full filenames and improve enumeration.
+Compare the results from ``wordlist.txt`` with ShortScan IIS output to determine the full filenames and improve enumeration.
 
 
 
