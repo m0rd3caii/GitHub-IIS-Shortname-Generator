@@ -24,7 +24,7 @@ Set up your token here:
 ```py
 "Authorization": "token YOUR_GITHUB_TOKEN"
 ```
-
+(in gsnw.py)
 
 ## Usage
 
