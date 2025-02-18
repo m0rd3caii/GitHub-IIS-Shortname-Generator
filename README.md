@@ -17,6 +17,13 @@ cd github-shortname-scanner
 pip install -r requirements.txt
 ```
 
+## Configuration
+
+Set up your token here:
+
+
+
+
 ## Usage
 
 ```
