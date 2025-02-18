@@ -21,7 +21,9 @@ pip install -r requirements.txt
 
 Set up your token here:
 
-
+```py
+"Authorization": "token YOUR_GITHUB_TOKEN"
+```
 
 
 ## Usage
