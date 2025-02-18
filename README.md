@@ -12,7 +12,7 @@ GitHub Shortname Scanner is a tool that searches for filenames in public GitHub 
 Clone the repository and install dependencies:  
 
 ```bash
-git clone https://github.com/your-username/github-shortname-scanner.git
+git clone https://github.com/m0rd3caii/GitHub-Shortname-Scanner.git
 cd github-shortname-scanner
 pip install -r requirements.txt
 ```
