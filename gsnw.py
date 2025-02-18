@@ -62,7 +62,7 @@ class GitHubNameSearcher:
         # If output file is specified, save to file
         if output_file:
             try:
-                with open(output_file, 'w') as f:
+                with open(output_file, 'a') as f:
                     for name in sorted_names:
                         f.write(f"{name}\n")
                 print(f"\nResults saved to: {output_file}")
